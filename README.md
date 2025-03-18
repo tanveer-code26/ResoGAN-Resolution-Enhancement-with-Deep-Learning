@@ -65,9 +65,3 @@ We welcome contributions! Feel free to fork the repo and submit pull requests.
 
 ## 📜 License  
 This project is licensed under the **MIT License**.  
-
-⭐ **Star this repo** if you found it useful! 🚀  
-
----
-
-Let me know if you'd like any modifications before you upload it to GitHub! 😊
