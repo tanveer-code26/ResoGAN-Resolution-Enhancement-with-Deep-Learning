@@ -1,67 +1,90 @@
-# 🌟 ResoGAN - Resolution Enhancement with Deep Learning  
+# 🌟 ResoGAN - Resolution Enhancement with Deep Learning
 
-## 🚀 Overview  
-**ResoGAN** is a deep learning-based image quality enhancement tool that uses a Generative Adversarial Network (GAN) to upscale low-resolution images. This project leverages **TensorFlow** and **Streamlit** to provide a user-friendly web interface for real-time image enhancement.  
+## 🚀 Overview
 
-## 🔥 Features  
-✅ **Deep Learning-Powered Enhancement** – Uses a trained GAN to improve image quality.  
-✅ **User-Friendly Interface** – Upload an image and enhance it instantly using **Streamlit**.  
-✅ **Fast and Efficient** – Processes images quickly with a pre-trained generator model.  
-✅ **Supports Multiple Formats** – Works with **JPG, JPEG, and PNG** files.  
+**ResoGAN** is an AI-powered application that enhances the resolution of low-quality images using a deep learning model known as a **Generative Adversarial Network (GAN)**. Built with **TensorFlow** and wrapped in an intuitive **Streamlit** interface, this tool empowers users to upscale and refine image details in real time. Whether you're dealing with blurred, pixelated, or compressed photos, ResoGAN makes it easy to restore visual clarity with a single click.
 
-## 🎥 Demo  
-<img src="assets/demo.gif" width="800px">  
-(*Include a GIF or image showcasing the app in action.*)  
+## 🔥 Features
 
-## 🛠️ Tech Stack  
-- **Python** 🐍  
-- **TensorFlow / Keras** 🔥  
-- **NumPy** 📊  
-- **Streamlit** 🎨  
-- **PIL (Pillow)** 🖼️  
+* ✅ **Deep Learning-Powered Enhancement**
+  Utilizes a trained GAN architecture to significantly enhance low-resolution images, restoring finer details and textures.
 
-## 📂 Project Structure  
+* ✅ **User-Friendly Interface**
+  Simple and clean front-end built with Streamlit that allows image uploads and displays enhancements instantly.
+
+* ✅ **Fast and Efficient Inference**
+  With a pre-trained generator model, image processing is fast and does not require re-training or fine-tuning.
+
+* ✅ **Format Flexibility**
+  Supports popular image formats including **JPG**, **JPEG**, and **PNG** for seamless usage.
+
+## 🛠️ Tech Stack
+
+* **Python** 🐍 - Core language for development
+* **TensorFlow / Keras** 🔥 - Deep learning framework for building and loading GAN models
+* **NumPy** 📊 - Numerical operations and image array handling
+* **Streamlit** 🎨 - Interactive web app framework for deploying ML models
+* **PIL (Pillow)** 🖼️ - Image loading and manipulation
+
+## 📂 Project Structure
+
 ```
 ResoGAN/
-│── generator_model.h5       # Pre-trained generator model
-│── gan.py                   # Main script for image enhancement
-│── requirements.txt         # Dependencies
-│── README.md                # Project documentation
-│── assets/                  # Store images, GIFs, and other media
+├── generator_model.h5       # Pre-trained GAN generator model
+├── gan.py                   # Streamlit script for inference and UI
+├── requirements.txt         # Python dependencies and libraries
+├── README.md                # Project documentation
+└── assets/                  # Media directory for images, icons, etc.
 ```
 
-## 💻 Installation & Usage  
-### 🔹 1. Clone the Repository  
-```sh
+## 💻 Installation & Usage
+
+### 🔹 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/ResoGAN.git
 cd ResoGAN
 ```
 
-### 🔹 2. Install Dependencies  
-```sh
+### 🔹 2. Install the Required Libraries
+
+```bash
 pip install -r requirements.txt
 ```
 
-### 🔹 3. Run the Application  
-```sh
+### 🔹 3. Run the Streamlit App
+
+```bash
 streamlit run gan.py
 ```
-Upload a low-resolution image, and **ResoGAN** will enhance its quality!  
 
-## 📷 Example Results  
-| Input (Low-Resolution) | Output (Enhanced) |
-|------------------------|-------------------|
+Then upload a low-resolution image using the UI. ResoGAN will enhance it and display the result in real time.
+
+## 📷 Example Results
+
+| Input (Low-Resolution)         | Output (Enhanced)                |
+| ------------------------------ | -------------------------------- |
 | ![Low-Res](assets/low_res.jpg) | ![High-Res](assets/high_res.jpg) |
 
-(*Replace with actual before/after images.*)  
+> (*Ensure you place real before/after image samples in the `assets/` directory*)
 
-## 📌 Future Improvements  
-✅ **Train on a Larger Dataset** for even better image enhancement.  
-✅ **Increase Model Resolution** to support higher-quality images.  
-✅ **Mobile & Web Deployment** using Flask or FastAPI.  
+## 📌 Future Improvements
 
-## 🤝 Contributing  
-We welcome contributions! Feel free to fork the repo and submit pull requests.  
+* ✅ **Train on a Larger and More Diverse Dataset** to enhance model generalization.
+* ✅ **Add Higher Resolution Support** to allow for 2x or 4x upscaling options.
+* ✅ **Mobile and Web Deployment** via Flask, FastAPI, or even containerization (Docker).
+* ✅ **Edge Device Compatibility** for lightweight models that can run on mobile or Raspberry Pi.
 
-## 📜 License  
-This project is licensed under the **MIT License**.  
+## 🤝 Contributing
+
+Contributions are highly appreciated! Feel free to fork the repository, create a new branch, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you'd like to change.
+
+## 📜 License
+
+This project is released under the **MIT License**. You are free to use, modify, and distribute it as long as the license file is included in your distribution.
+
+---
+
+Made with ❤️ by **Tanveer Singh** and **Sehajdeep Singh**.
+
+Feel free to reach out or open issues if you encounter bugs or have suggestions!
