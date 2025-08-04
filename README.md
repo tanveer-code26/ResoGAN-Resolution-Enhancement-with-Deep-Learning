@@ -42,7 +42,7 @@ ResoGAN/
 ### 🔹 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ResoGAN.git
+git clone https://github.com/tanveerbedi/ResoGAN.git
 cd ResoGAN
 ```
 
