@@ -66,8 +66,6 @@ Then upload a low-resolution image using the UI. ResoGAN will enhance it and dis
 | ------------------------------ | -------------------------------- |
 | ![Low-Res](assets/low_res.jpg) | ![High-Res](assets/high_res.jpg) |
 
-> (*Ensure you place real before/after image samples in the `assets/` directory*)
-
 ## 📌 Future Improvements
 
 * ✅ **Train on a Larger and More Diverse Dataset** to enhance model generalization.
