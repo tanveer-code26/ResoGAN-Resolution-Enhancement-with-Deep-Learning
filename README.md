@@ -84,5 +84,3 @@ This project is released under the **MIT License**. You are free to use, modify,
 ---
 
 Made with ❤️ by **Tanveer Singh** and **Sehajdeep Singh**.
-
-Feel free to reach out or open issues if you encounter bugs or have suggestions!
